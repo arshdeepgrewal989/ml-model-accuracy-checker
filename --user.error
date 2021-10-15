@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/Arshdeep/.vscode/extensions/ms-python.python-2021.9.1246542782/pythonFiles/shell_exec.py", line 26, in <module>
+    subprocess.check_call(shell_args, stdout=sys.stdout, stderr=sys.stderr)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.8/lib/python3.8/subprocess.py", line 364, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/python3', '-m', 'pip', 'install', '-U', '--force-reinstall', 'ipykernel', '/var/folders/mh/pb1b2tpj0vb_chpvjt3t2dsh0000gn/T/tmp-71067ELFmZdSTnv09.log']' returned non-zero exit status 1.
